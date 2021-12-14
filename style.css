@@ -9,6 +9,7 @@ html, body{
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
+    margin: 0;
 }
 
 .logo {
@@ -27,4 +28,46 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
+}
+
+.subheader {
+    background-color: #1F2937;
+    margin: 0;
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    margin-right: 30px;
+    width: 500px;
+}
+
+.intro h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+h1, h2, p {
+    margin: 0;
+}
+
+.intro p {
+    font-size: 18px;
+    width: 450px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 16px;
+    color: #F9FAF8;
+    border: #3882F6;
+    margin-top: 20px;
+    height: 30px;
+    font-weight: bold;
 }
