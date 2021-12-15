@@ -77,12 +77,13 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    height: 400px;;
 }
 
 .info img {
     border: 5px solid #3882F6;
     border-radius: 20px;
-    size: 150px, 100px;
+    height: 150px, 100px;
 }
 
 .container {
@@ -101,4 +102,34 @@ button {
 .info h2 {
     font-size: 36px;
     font-weight: bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.credit {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+    align-self: flex-end;
+}
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-family: sans-serif;
+    width: 850px;
 }
