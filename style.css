@@ -84,12 +84,13 @@ button {
     border: 5px solid #3882F6;
     border-radius: 20px;
     height: 150px, 100px;
+    margin: 25px;
 }
 
 .container {
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     width: 75%;
 }
