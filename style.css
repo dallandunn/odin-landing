@@ -60,7 +60,7 @@ h1, h2, p {
     color: #E5E7EB;
 }
 
-button {
+.intro button {
     background-color: #3882F6;
     border-radius: 5px;
     width: 120px;
@@ -107,7 +107,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,4 +133,51 @@ button {
     font-weight: 100;
     font-family: sans-serif;
     width: 850px;
+}
+
+.action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    height: 120px;
+    width: 850px;
+    border-radius: 8px;
+    gap: 200px;
+}
+
+.text {
+    color:#E5E7EB;
+}
+
+.text h3 {
+    margin-bottom: 0;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.text p {
+    margin-top: 0;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.bluebox button {
+    border-width: 2px;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 16px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-style: solid;
+    height: 30px;
 }
